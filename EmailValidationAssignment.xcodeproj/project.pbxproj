@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256319E225ED5F0E0027086E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256319E125ED5F0E0027086E /* AppDelegate.swift */; };
+		256319E425ED5F0E0027086E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256319E325ED5F0E0027086E /* SceneDelegate.swift */; };
+		256319E625ED5F0E0027086E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256319E525ED5F0E0027086E /* ViewController.swift */; };
+		256319E925ED5F0E0027086E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256319E725ED5F0E0027086E /* Main.storyboard */; };
+		256319EC25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 256319EA25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodeld */; };
+		256319EE25ED5F0F0027086E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256319ED25ED5F0F0027086E /* Assets.xcassets */; };
+		256319F125ED5F0F0027086E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256319EF25ED5F0F0027086E /* LaunchScreen.storyboard */; };
+		256319FC25ED5F0F0027086E /* EmailValidationAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256319FB25ED5F0F0027086E /* EmailValidationAssignmentTests.swift */; };
+		25631A0725ED5F0F0027086E /* EmailValidationAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25631A0625ED5F0F0027086E /* EmailValidationAssignmentUITests.swift */; };
+		25631A1825ED61290027086E /* ValidationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25631A1725ED61290027086E /* ValidationVM.swift */; };
+		25631A1D25ED62610027086E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25631A1C25ED62610027086E /* UserModel.swift */; };
+		25631A2225ED70680027086E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25631A2125ED70670027086E /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256319F825ED5F0F0027086E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256319D625ED5F0E0027086E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256319DD25ED5F0E0027086E;
+			remoteInfo = EmailValidationAssignment;
+		};
+		25631A0325ED5F0F0027086E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256319D625ED5F0E0027086E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256319DD25ED5F0E0027086E;
+			remoteInfo = EmailValidationAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256319DE25ED5F0E0027086E /* EmailValidationAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailValidationAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256319E125ED5F0E0027086E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		256319E325ED5F0E0027086E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		256319E525ED5F0E0027086E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		256319E825ED5F0E0027086E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		256319EB25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmailValidationAssignment.xcdatamodel; sourceTree = "<group>"; };
+		256319ED25ED5F0F0027086E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256319F025ED5F0F0027086E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		256319F225ED5F0F0027086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256319F725ED5F0F0027086E /* EmailValidationAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailValidationAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256319FB25ED5F0F0027086E /* EmailValidationAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationAssignmentTests.swift; sourceTree = "<group>"; };
+		256319FD25ED5F0F0027086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25631A0225ED5F0F0027086E /* EmailValidationAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailValidationAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25631A0625ED5F0F0027086E /* EmailValidationAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationAssignmentUITests.swift; sourceTree = "<group>"; };
+		25631A0825ED5F0F0027086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25631A1725ED61290027086E /* ValidationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationVM.swift; sourceTree = "<group>"; };
+		25631A1C25ED62610027086E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		25631A2125ED70670027086E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256319DB25ED5F0E0027086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256319F425ED5F0F0027086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256319FF25ED5F0F0027086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256319D525ED5F0E0027086E = {
+			isa = PBXGroup;
+			children = (
+				256319E025ED5F0E0027086E /* EmailValidationAssignment */,
+				256319FA25ED5F0F0027086E /* EmailValidationAssignmentTests */,
+				25631A0525ED5F0F0027086E /* EmailValidationAssignmentUITests */,
+				256319DF25ED5F0E0027086E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256319DF25ED5F0E0027086E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256319DE25ED5F0E0027086E /* EmailValidationAssignment.app */,
+				256319F725ED5F0F0027086E /* EmailValidationAssignmentTests.xctest */,
+				25631A0225ED5F0F0027086E /* EmailValidationAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256319E025ED5F0E0027086E /* EmailValidationAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				25631A2825ED70800027086E /* ViewModel */,
+				25631A2725ED70750027086E /* Model */,
+				25631A2625ED706F0027086E /* View */,
+				256319E125ED5F0E0027086E /* AppDelegate.swift */,
+				256319E325ED5F0E0027086E /* SceneDelegate.swift */,
+				256319E725ED5F0E0027086E /* Main.storyboard */,
+				256319ED25ED5F0F0027086E /* Assets.xcassets */,
+				256319EF25ED5F0F0027086E /* LaunchScreen.storyboard */,
+				256319F225ED5F0F0027086E /* Info.plist */,
+				256319EA25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodeld */,
+			);
+			path = EmailValidationAssignment;
+			sourceTree = "<group>";
+		};
+		256319FA25ED5F0F0027086E /* EmailValidationAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				256319FB25ED5F0F0027086E /* EmailValidationAssignmentTests.swift */,
+				256319FD25ED5F0F0027086E /* Info.plist */,
+			);
+			path = EmailValidationAssignmentTests;
+			sourceTree = "<group>";
+		};
+		25631A0525ED5F0F0027086E /* EmailValidationAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25631A0625ED5F0F0027086E /* EmailValidationAssignmentUITests.swift */,
+				25631A0825ED5F0F0027086E /* Info.plist */,
+			);
+			path = EmailValidationAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		25631A2625ED706F0027086E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25631A2125ED70670027086E /* HomeViewController.swift */,
+				256319E525ED5F0E0027086E /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25631A2725ED70750027086E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25631A1C25ED62610027086E /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25631A2825ED70800027086E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25631A1725ED61290027086E /* ValidationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256319DD25ED5F0E0027086E /* EmailValidationAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25631A0B25ED5F0F0027086E /* Build configuration list for PBXNativeTarget "EmailValidationAssignment" */;
+			buildPhases = (
+				256319DA25ED5F0E0027086E /* Sources */,
+				256319DB25ED5F0E0027086E /* Frameworks */,
+				256319DC25ED5F0E0027086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailValidationAssignment;
+			productName = EmailValidationAssignment;
+			productReference = 256319DE25ED5F0E0027086E /* EmailValidationAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		256319F625ED5F0F0027086E /* EmailValidationAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25631A0E25ED5F0F0027086E /* Build configuration list for PBXNativeTarget "EmailValidationAssignmentTests" */;
+			buildPhases = (
+				256319F325ED5F0F0027086E /* Sources */,
+				256319F425ED5F0F0027086E /* Frameworks */,
+				256319F525ED5F0F0027086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256319F925ED5F0F0027086E /* PBXTargetDependency */,
+			);
+			name = EmailValidationAssignmentTests;
+			productName = EmailValidationAssignmentTests;
+			productReference = 256319F725ED5F0F0027086E /* EmailValidationAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25631A0125ED5F0F0027086E /* EmailValidationAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25631A1125ED5F0F0027086E /* Build configuration list for PBXNativeTarget "EmailValidationAssignmentUITests" */;
+			buildPhases = (
+				256319FE25ED5F0F0027086E /* Sources */,
+				256319FF25ED5F0F0027086E /* Frameworks */,
+				25631A0025ED5F0F0027086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25631A0425ED5F0F0027086E /* PBXTargetDependency */,
+			);
+			name = EmailValidationAssignmentUITests;
+			productName = EmailValidationAssignmentUITests;
+			productReference = 25631A0225ED5F0F0027086E /* EmailValidationAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256319D625ED5F0E0027086E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					256319DD25ED5F0E0027086E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					256319F625ED5F0F0027086E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 256319DD25ED5F0E0027086E;
+					};
+					25631A0125ED5F0F0027086E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 256319DD25ED5F0E0027086E;
+					};
+				};
+			};
+			buildConfigurationList = 256319D925ED5F0E0027086E /* Build configuration list for PBXProject "EmailValidationAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256319D525ED5F0E0027086E;
+			productRefGroup = 256319DF25ED5F0E0027086E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256319DD25ED5F0E0027086E /* EmailValidationAssignment */,
+				256319F625ED5F0F0027086E /* EmailValidationAssignmentTests */,
+				25631A0125ED5F0F0027086E /* EmailValidationAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256319DC25ED5F0E0027086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256319F125ED5F0F0027086E /* LaunchScreen.storyboard in Resources */,
+				256319EE25ED5F0F0027086E /* Assets.xcassets in Resources */,
+				256319E925ED5F0E0027086E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256319F525ED5F0F0027086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25631A0025ED5F0F0027086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256319DA25ED5F0E0027086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256319E625ED5F0E0027086E /* ViewController.swift in Sources */,
+				256319E225ED5F0E0027086E /* AppDelegate.swift in Sources */,
+				25631A1825ED61290027086E /* ValidationVM.swift in Sources */,
+				256319EC25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodeld in Sources */,
+				25631A1D25ED62610027086E /* UserModel.swift in Sources */,
+				25631A2225ED70680027086E /* HomeViewController.swift in Sources */,
+				256319E425ED5F0E0027086E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256319F325ED5F0F0027086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256319FC25ED5F0F0027086E /* EmailValidationAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256319FE25ED5F0F0027086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25631A0725ED5F0F0027086E /* EmailValidationAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256319F925ED5F0F0027086E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256319DD25ED5F0E0027086E /* EmailValidationAssignment */;
+			targetProxy = 256319F825ED5F0F0027086E /* PBXContainerItemProxy */;
+		};
+		25631A0425ED5F0F0027086E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256319DD25ED5F0E0027086E /* EmailValidationAssignment */;
+			targetProxy = 25631A0325ED5F0F0027086E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		256319E725ED5F0E0027086E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256319E825ED5F0E0027086E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		256319EF25ED5F0F0027086E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256319F025ED5F0F0027086E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25631A0925ED5F0F0027086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25631A0A25ED5F0F0027086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25631A0C25ED5F0F0027086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidationAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.EmailValidationAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25631A0D25ED5F0F0027086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidationAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.EmailValidationAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25631A0F25ED5F0F0027086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidationAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.EmailValidationAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailValidationAssignment.app/EmailValidationAssignment";
+			};
+			name = Debug;
+		};
+		25631A1025ED5F0F0027086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidationAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.EmailValidationAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailValidationAssignment.app/EmailValidationAssignment";
+			};
+			name = Release;
+		};
+		25631A1225ED5F0F0027086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidationAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.EmailValidationAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmailValidationAssignment;
+			};
+			name = Debug;
+		};
+		25631A1325ED5F0F0027086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidationAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.EmailValidationAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmailValidationAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256319D925ED5F0E0027086E /* Build configuration list for PBXProject "EmailValidationAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25631A0925ED5F0F0027086E /* Debug */,
+				25631A0A25ED5F0F0027086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25631A0B25ED5F0F0027086E /* Build configuration list for PBXNativeTarget "EmailValidationAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25631A0C25ED5F0F0027086E /* Debug */,
+				25631A0D25ED5F0F0027086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25631A0E25ED5F0F0027086E /* Build configuration list for PBXNativeTarget "EmailValidationAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25631A0F25ED5F0F0027086E /* Debug */,
+				25631A1025ED5F0F0027086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25631A1125ED5F0F0027086E /* Build configuration list for PBXNativeTarget "EmailValidationAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25631A1225ED5F0F0027086E /* Debug */,
+				25631A1325ED5F0F0027086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		256319EA25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				256319EB25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodel */,
+			);
+			currentVersion = 256319EB25ED5F0E0027086E /* EmailValidationAssignment.xcdatamodel */;
+			path = EmailValidationAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 256319D625ED5F0E0027086E /* Project object */;
+}
